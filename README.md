@@ -2,7 +2,7 @@
 
 This notebook covers model training, hyperparameter tuning, and evaluation to classify fraudulent transactions (Class 1: Fraudulent, Class 0: Not).
 
-## Steps Overview
+## Steps
 - **Data Preprocessing**: Prepares the dataset by handling missing values, scaling features, and encoding categorical variables.
 - **Model Training**: Trains multiple machine learning models (e.g., Logistic Regression, XGBoost, HistGradient Boosting, LightGBM) on the preprocessed data.
 - **Hyperparameter Tuning**: Uses RandomizedSearchCV to optimize model hyperparameters for better performance.
@@ -19,7 +19,7 @@ The GradientBoosting model achieved a Balanced Accuracy of 75.3%, indicates that
 - **Balanced Accuracy**: A score of 0.7526 indicates that the model is treating both classes fairly, but there is still room for improvement.
 
 ## Data
-- Fraud Data (Fraud_Data.csv): Contains transaction data, including user information, transaction timestamps, and transaction labels (fraudulent or not).
+- Fraud Data (Fraud_Data.csv): Contains transaction data, including user information, transaction timestamps, and transaction labels (Class 1: Fraudulent, Class 0: Not).
 - IP to Country Mapping (IpAddress_to_Country.xlsx): Maps IP addresses to countries, which is used for feature engineering.
 
 ## Requirements
