@@ -1,6 +1,6 @@
 # Fraud Detection using Machine Learning Algorithms
 
-This notebook covers model training, hyperparameter tuning, and evaluation to classify fraudulent transactions (Class 1: Fraudulent, Class 0: Not).
+This notebook covers model training, hyperparameter tuning, and evaluation to classify fraudulent transactions (1: Fraudulent, 0: Not).
 
 ## Steps
 - **Data Preprocessing**: Prepares the dataset by handling missing values, scaling features, and encoding categorical variables.
